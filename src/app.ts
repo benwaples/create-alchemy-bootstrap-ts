@@ -3,5 +3,3 @@
 // initialize state
 
 // set event listeners to update state and DOM
-
-console.log('hello world');

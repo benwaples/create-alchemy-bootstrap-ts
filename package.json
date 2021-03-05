@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/benwaples/create-alchemy-bootstrap-ts#readme",
   "dependencies": {
+    "@types/qunit": "^2.11.1",
     "tsc": "^1.20150623.0"
   }
 }
