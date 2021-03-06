@@ -61,10 +61,10 @@ footer {
 }
 
 
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-}
+// h2 {
+//     font-size: 1.8rem;
+//     font-weight: bold;
+// }
 
 .gutter-right {
     margin-right: 20px;
@@ -72,6 +72,12 @@ h2 {
 
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
+}
+
+.ts-logo {
+ margin-left: 60px;
+ width: 130px;
+ height: auto;
 }
 
 header img {

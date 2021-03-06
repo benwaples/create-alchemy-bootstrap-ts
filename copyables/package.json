@@ -1,0 +1,28 @@
+{
+  "name": "create-alchemy-bootstrap-ts",
+  "version": "1.0.0",
+  "description": "replica of the npm package create-alchemy-bootstrap but converted for TypeScript Projects",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwaples/create-alchemy-bootstrap-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benwaples/create-alchemy-bootstrap-ts/issues"
+  },
+  "homepage": "https://github.com/benwaples/create-alchemy-bootstrap-ts#readme",
+  "dependencies": {
+    "@types/qunit": "^2.11.1",
+    "tsc": "^1.20150623.0"
+  }
+}
