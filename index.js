@@ -21,7 +21,7 @@ fs.copy(`${__dirname}/copyables`, folder, err => {
   if(folder === '.') {
     console.log('\n 🍳 project files have been placed in this directory, installing dependencies 🥚 \n')
     child_process.exec('npm i')
-    return console.log('\n 🍱 dependencies are installed 🌯 \n')
+    return console.log('\n 🍱  dependencies are installed 🌯 \n')
   }
   console.log('\n 🥦 🥦    Happy Coding!   🥦 🥦  \n')
 })
