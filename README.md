@@ -6,7 +6,7 @@ Thanks for giving the create-alchemy-bootstrap-ts project a try :) This was crea
 ***
 ## First Time Users
 There are just a few things to note before you start hacking at the keeb:
-1. after forking and cloning this repo, `npm i` for the needed dependencies
+
 1. if you don't have TypeScript installed globally, run `npm i -g typescript` in your terminal
 1. build your app as normal, but inside the src directory.
 1. When you create a new html document, the script tag should have a relative path to the JavaScript file that lives in the public directory. For example, and html file in the root of src would have path such as `../public/app.js`
