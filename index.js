@@ -14,15 +14,15 @@ if(folder !== '.') {
 fs.copy(`${__dirname}/copyables`, folder, err => {
   if(err) console.log('something went wrong')
   if(folder !== '.') {
-    console.log(`\n ${folder} is ready, now installing dependencies \n`)
+    console.log(`\n 🍞 ${folder} is ready, now installing dependencies 🥑 \n`)
     child_process.exec(`cd ${folder} && npm i`)
-    return console.log('\n dependencies are installed \n')
+    return console.log('\n 🌽 dependencies are installed 🥕 \n')
   }
   if(folder === '.') {
-    console.log('\n project files have been placed in this directory, installing dependencies \n')
+    console.log('\n 🍳 project files have been placed in this directory, installing dependencies 🥚 \n')
     child_process.exec('npm i')
-    return console.log('\n dependencies are installed \n')
+    return console.log('\n 🍱 dependencies are installed 🌯 \n')
   }
-  console.log('\n Happy Coding! \n')
+  console.log('\n 🥦 🥦    Happy Coding!   🥦 🥦  \n')
 })
 
