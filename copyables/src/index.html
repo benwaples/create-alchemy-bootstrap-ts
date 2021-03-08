@@ -38,9 +38,10 @@
                 <ol>
                     
                     <li>if you don't have TypeScript installed globally, run npm i -g typescript in your terminal</li>
-                    <li>build your app as normal, but inside the src directory.</li>
-                    <li>When you create a new html document, the script tag should have a relative path to the JavaScript file that lives in the public directory. For example, and html file in the root of src would have path such as '../public/app.js'</li>
-                    <li>when you are ready to compile your TypeScript into JavaScript and open a page with Live Server, run tsc in your terminal. Or run tsc -w to have the compiler watching for changes to ts files.</li>
+                    <li>build your app inside the src directory.</li>
+                    <li>When you create a new html document, the script tag should have a relative path to the JavaScript file that wil live in the public directory one the TypeScript is compiled. For example, and html file in the root of src would have path such as '../public/app.js'</li>
+                    <li>When importing one .ts file into another, change the extension to .js. For example, a utils.ts file would be imported into app.ts as "import { myFunction } from ./utils.js"</li>
+                    <li>When you are ready to compile your TypeScript into JavaScript and open a page with Live Server, run tsc in your terminal. Or run tsc -w to have the compiler watching for changes to ts files.</li>
                     <li>I commented out the reset.css and home.css stylesheets from this page, however they still exist in the styles directory. For any TA's who want to see what new students are experiencing, you'll might want to uncomment that out.</li>
                 </ol>
                 <hr />
